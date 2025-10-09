@@ -76,3 +76,6 @@ O foco base dele é fornecer uma estrutura educacional em que o aluno possa evol
 ### Rotas da API para Testes
 - **`/api/versao`:** Retorna versão da aplicação (não usa banco)
 - **`/api/tarefas`:** Retorna dados do banco PostgreSQL (ideal para testar conectividade com RDS)
+
+### Rota para Consultas de Base de Dados
+- **`/api/tarefas`:** Use esta rota para retornar informações do banco de dados através da API. Retorna lista de tarefas armazenadas no PostgreSQL em formato JSON.
